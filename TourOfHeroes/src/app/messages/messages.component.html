@@ -1,0 +1,11 @@
+<div *ngIf="messageService.messages.length >= 1">
+  <!-- Desplegaré el template cuando haya algún mensaje-->
+
+  <h2>Messages</h2>
+  <!-- Si clickeo en el boton clear limpiará toda la lista de mensajes-->
+  <button class="clear"
+          (click)="messageService.clear()">clear</button>
+  <div *ngFor='let message of messageService.messages'> {{message}} </div>
+<!-- Iré mostrando la lista de mensajes con lo smensajes que haya mientras van aumentando -->
+
+</div>

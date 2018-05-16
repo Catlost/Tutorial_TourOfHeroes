@@ -1,0 +1,15 @@
+<div *ngIf="hero">
+
+  <!-- Muestro el nombre del hero (el cual se podrá modificar en tiempo real) -->
+  <h2>{{ hero.name | uppercase }} Details</h2>
+  <!-- Su id hallada gracias a al ruta-->
+  <div><span>id: </span>{{hero.id}}</div>
+  <div>
+    <label>name:
+      <!-- Modificaciones en tiempo real del input -->
+      <input [(ngModel)]="hero.name" placeholder="name"/>
+    </label>
+  </div>
+  <button (click)="goBack()">go back</button>
+  <button (click)="save()">save</button>
+</div>

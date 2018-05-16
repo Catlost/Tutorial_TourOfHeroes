@@ -4,7 +4,7 @@ when you finish it you will have a medium funcionality app in Angular 4/5, if yo
 the Tutorial step by step you can click [here](https://angular.io/tutorial).
 ## Starter configurations to run the app
 Use `cd <name of the folder>` to get in in the project
-Run `npm install` if u haven´t do it before and you will have the
+and Run `npm install` if u haven´t do it before and you will have the
 necessary to run the app
 
 ## Development server

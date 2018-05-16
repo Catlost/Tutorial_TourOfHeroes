@@ -1,0 +1,10 @@
+<h1>{{title}}</h1>
+<nav>
+  <!-- Linkeos a las pestañas necesarias -->
+  <a routerLink="/dashboard">Dashboard</a>
+  <a routerLink="/heroes">Heroes</a>
+</nav>
+<!-- Ejecución del código según el "acto de routing"-->
+<router-outlet></router-outlet>
+<!-- Despliegue del componente de mensajes-->
+<app-messages></app-messages>
